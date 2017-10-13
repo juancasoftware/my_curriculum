@@ -1,0 +1,122 @@
+#wrapper {
+  background: lightgray;
+width: 100%;
+text-align: center;
+margin-top: -16px;
+}
+.caja-mayor {
+  background: orange;
+  width: 1024px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.caja-mayor2 {
+  background: lightyellow;
+  width: 1024px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.ver-li-en-linea{
+  font-size: 2em;
+  float:right;
+  font-weight: bold;
+  border: 1px solid;
+  display:inline;
+  padding: 5px;
+  background: black;
+}
+hr{
+ height: 5px;
+ background-color: orange;
+ margin-left: 5px;
+ margin-right: 20px;
+}
+.caja-intro{
+  background: lightgray;
+  display: flex;
+  height: auto;
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 10px 10px gray;
+  border-radius: 0px 50px 0px 50px;
+  }
+.thick-green-border{
+  border: 5px;
+  border-style: solid;
+  border-radius: 100%;
+  box-shadow: 7px 7px gray;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: white; 
+}
+.justificar-texto{
+  text-align: justify;
+  margin:2em;
+}
+.justificar-lista{
+  text-align: justify;
+  margin:0px;
+}
+.letter-capital:first-letter{
+  font-size: 2em;
+  color:#000;
+}
+.titulos{
+  font-size: 25px;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  color:gray;
+}
+.img-standard{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px gray;
+  -webkit-border-radius: 5px 10px;
+  -moz-border-radius: 20px 20px;
+}
+.pie-pag{
+  margin-top: 0;
+  margin-right: 2em;
+  margin-bottom:0;
+  margin-left: 2em;
+}
+li{
+  list-style:none;
+}
+.fondo-gris{
+  background-color: gray;
+}
+.fondo-blanco{
+  background-color: White;
+}
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.peque{
+  max-height:50%;
+ max-width: 50%;
+}
+.caja-final{
+  background: red;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.pie{
+height: 100%;
+background-color: #333;
+color: #fff;
+text-align: center;
+clear: both;
+}
